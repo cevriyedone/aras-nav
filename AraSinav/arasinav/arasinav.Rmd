@@ -1,0 +1,59 @@
+---
+title: "Türkiye'de Çocuk Nüfusu Oranının Azalması"
+author: 
+  - Cevriye Döne[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080292  [Github Repo](https://github.com/cevriyedone/aras-nav.git)
+
+
+
+# Giriş
+Gelişmiş ve gelişmekte olan toplumlarda çocuk nüfusun toplam nüfus içindeki oranı düzenli bir şekilde azalmaktadır. Bu küresel bir sorun haline gelmiştir. Türkiye’de  o ülkeler olma yolunda emin adımlarla ilerlemektedir. 1935 yılında çocuk nüfusun toplam nüfus içindeki oranı %45 iken 2020 yılında %27,2 ye inmiştir. 2080 yılında %19 olması beklenmektedir.  Değişen ve gelişen dünyada çocuk ihtiyacı azalmıştır.Artan yaş fonksiyonel yetersizlikler için en büyük risk faktörüdür. Yaşam süresinin uzaması ve doğum oranlarının düşmesi sonucu dünya nüfusu yaşlanmaktadır. Bilinenin aksine gelişmekte olan ülkeler, gelişmiş ülkelere göre nüfus yaşlanmasından daha çok etkilenecektir  Yazım konusunda @samanci2018dunyada'ye başvurabilirsiniz. 
+
+
+
+
+## Literatür 
+
+Bütün toplumların sosyo-ekonomik ve sosyo kültürel yapıları değiştikçe nüfus yapıları da farklılaşmaktadır. Türkiye’de başta hızlı kentleşme olmak üzere, eğitim seviyesinin yükselmesi, kişi başına düşen gelirin artması, sağlık koşullarının iyileşmesi, aile yapısının değişmesi, aile kurumunun zayıflaması, kadının çalışma hayatına daha fazla katılmaya başlaması, boşanma oranının artması gibi çok sayıda faktör nüfus yapısını etkilemiştir. [@yilmaz2016turkiye].
+
+Demographic transition is under way in all over the world as well as in Turkey. From 1940s onwards, life expectancy has increased by more than 30 years and total fertility rate has declined from 6-7 children per woman to almost 2 children in Turkey. [@özer_2013] 
+
+Young population with its dynamic and creative structure is the driving power for the development of the country. It is accepted that the countries which have young population have more advantages compared to other countries which have same economic conditions. This advantage deriving from a demographic change lasts for a certain period and it is not permanent. At the present time, Turkey, whose population growth rate is decreasing and approaching to the level of developed countries, is experiencing a great demographic transition process. The most significant change occurs in age structure thus on the one hand the share of the young population is declining in the total population; on the other hand productive population between 25- 29 ages is gradually increasing. [@yaldir2016current].
+
+ Türkiye’de toplam nüfus artış hızı 2013 yılında ‰13,7 iken, yaşlı nüfusun artış hızı ‰36,2’dır. Türkiye’de yaşlı nüfusun 2008-2040 yılları arasında %201 oranında artış göstereceği öngörülmektedir. Nüfusun hızla yaşlanması bazı kronik hastalıkların görülme riskini artırmakta bunun sonucu olarak da halk sağlığı için yeni ve ciddi sorunlar ortaya çıkmaktadır. Gelişmekte olan ülkelerde 2020 yılına kadar tüm ölümlerin ¾ nün yaşlanma ile ilgili olacağı tahmin edilmektedir. [@samanci2018dunyada]
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
